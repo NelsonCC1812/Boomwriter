@@ -5,7 +5,12 @@
 
 /* NAVBAR */
 .index .hero .navbar{
+    position: sticky;
     top: 0;
+    background-color: white;
+    width: 100%;
+
+    z-index: 2000;
 }
 
 
@@ -13,7 +18,7 @@
 .index .hero .heading-container{
    position: relative;
    min-height: 25vh;
-   padding: 30px 0;
+   padding-bottom: 30px;
 }
 
 .index .hero .heading-container::after{
@@ -49,14 +54,21 @@
     -webkit-text-stroke: 1px rgba(0,0,0,.8);
 }
 
+.index .hero .heading-container .heading br{
+    display: block;
+    content: " ";
+    margin-bottom: -20px;
+}
+
 
 .index .hero .heading-container .heading .hero-scroll{
     background-image: url('./images/scroll.png') ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 5px 20px;
+    padding: 5px 5px;
     display: inline-block;
+    margin-bottom: 0;
 
     font-family: 'NexaRustScriptLW00-02';
     font-size: 1.3rem;
