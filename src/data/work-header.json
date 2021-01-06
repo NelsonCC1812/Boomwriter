@@ -1,0 +1,27 @@
+[
+    {
+        "img": "images/index/workHeader/book.png",
+        "title": "Read/View",
+        "text": "The prompt"
+    },
+    {
+        "img": "images/index/workHeader/keyboard.png",
+        "title": "Write",
+        "text": "An entry"
+    },
+    {
+        "img": "images/index/workHeader/share.png",
+        "title": "Share",
+        "text": "With peers"
+    },
+    {
+        "img": "images/index/workHeader/vote.png",
+        "title": "Vote",
+        "text": "For the favorite"
+    },
+    {
+        "img": "images/index/workHeader/repeat.png",
+        "title": "Repeat",
+        "text": "Until complete"
+    }
+]
