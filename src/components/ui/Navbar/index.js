@@ -15,7 +15,7 @@ const Navbar = () => <header className='navbar'>
 
         <li><Link className='link' to='/'>Home</Link></li>
 
-        <li><Link className='link' to='/past_writing_bees'>Past Writing Bees</Link></li>
+        <li><Link className='link' to='/#'>Past Writing Bees</Link></li>
 
     </ul>
 

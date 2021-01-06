@@ -10,7 +10,7 @@ const HeaderDivision = () => <section className='header-division'>
 
     <p>Writing Bee Qualifying Rounds take place in individual classrooms around the world. Classroom-based winners and top vote-getters qualify for the Writing Bee Finals and a chance to become The Writing Bee Champion!</p>
 
-    <Link className='btn link' to='/account/signup'></Link>
+    <Link className='link btn' to='/#'> Start your classs writing bee </Link>
 
 </section>
 

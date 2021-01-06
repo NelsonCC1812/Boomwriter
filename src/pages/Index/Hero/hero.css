@@ -1,5 +1,6 @@
 .index .hero{
-    min-height: 90vh;
+    position: relative;
+    min-height: min-content;
 }
 
 /* NAVBAR */
@@ -105,13 +106,16 @@
 /* LAYER */
 .index .hero .layer{
     background-color: transparent;
-    position: absolute;
+    position: relative;
     z-index: 1000;
+    height: fit-content;
 }
 
 .index .hero .layer .map{
     width: 100%;
     background-color: transparent;
+    position: relative;
+    bottom: -5px;
 }
 
 .index .hero .layer .corner{
@@ -119,12 +123,11 @@
     width: 15%;
     right: 0;
     z-index: 1500;
-    bottom: 0;
+    bottom: -5px;
 }
 
 /* QUERYS */
 @media(max-width: 700px){
-
    
     .index .hero .heading-container .heading{
         font-size: 2rem;
