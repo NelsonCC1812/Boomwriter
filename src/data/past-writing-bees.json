@@ -1,0 +1,30 @@
+[
+    {
+        "img": "images/past-writing-bees/nick-bruel.jpg",
+        "title": "Uncle Contad and the Egg",
+        "author": "Nick Bruel",
+        "date": "Jan 2019 - May 2019",
+        "link": "#"
+    },
+    {
+        "img": "images/past-writing-bees/jamal-joseph.jpg",
+        "title": "The power of Spoken Word",
+        "author": "Jamal Joseph",
+        "date": "Jan 2019 - May 2019",
+        "link": "#"
+    },
+    {
+        "img": "images/past-writing-bees/jeff-kinney.png",
+        "title": "Unfathomable Mystery of River Street",
+        "author": "Jeff Kinney",
+        "date": "June 2018",
+        "link": "#"
+    },
+    {
+        "img": "images/past-writing-bees/jeff-cohen.png",
+        "title": "The legend of One Eyed Willy's Secret Second Treasure",
+        "author": "Jeff Cohen",
+        "date": "Feb 2017 - Mae 2017",
+        "link": "#"
+    }
+]
