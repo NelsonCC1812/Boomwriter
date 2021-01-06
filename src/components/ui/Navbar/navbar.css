@@ -40,7 +40,7 @@
 .navbar .nav-links .link{
     text-decoration: none;
     font-weight: 500;
-    color: var(--gray);
+    color:rgba(0,0,0,0.5);
 }
 .navbar .nav-links .link:hover{
     color: black;
@@ -66,6 +66,18 @@
 }
 
 
+.navbar .nav-links .mb-links{
+    width: 100%;
+    max-height: 0;
+    position: absolute;
+    top: 8vh;
+    transition: all .15s ease-in;
+     background-color: white;
+    left: 0;
+    width: 100%;
+}
+
+
 /* QUERYS */
 
 @media(max-width: 1000px){
@@ -76,5 +88,28 @@
 
     .navbar .nav-links .menu-container{
         display: block;
+    }
+
+    .navbar .nav-links .pc-link{
+        display: none;
+    }
+
+    .navbar .nav-links .show{
+        display: block;
+        
+        padding-top: 10px;
+       
+        max-height: 500px;
+        transition: all .15s ease-in;
+    }
+
+    .navbar .nav-links .show li{
+    
+        padding-bottom: 20px;
+    }
+
+    .navbar .nav-links .show .link{
+        display: initial;
+        margin-left: 20px;
     }
 }

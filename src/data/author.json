@@ -6,25 +6,37 @@
         "bookImg": "images/author/nick-bruel/book.png",
         "heading": {
             "title": "The Spring 2007 Writing Bee",
-            "subtitle": "Featuring "
+            "subtitle": "Featuring <i>Bad Kitty</i> author, Nick Bruel"
         }
     },
     "jamal-joseph": {
         "img1": "images/author/jamal-joseph/img1.jpg",
         "img2": "images/author/jamal-joseph/img2.jpg",
         "img3": "images/author/jamal-joseph/img3.jpg",
-        "bookImg": "images/author/jamal-joseph/book.png"
+        "bookImg": "images/author/jamal-joseph/book.png",
+        "heading": {
+            "title": "The 2019 Middle School Writing Bee",
+            "subtitle": "Featuring Black Panther, author and poet, Jamal Joseph"
+        }
     },
     "jeff-kinney": {
         "img1": "images/author/jeff-kinney/img1.png",
         "img2": "images/author/jeff-kinney/img2.png",
         "img3": "images/author/jeff-kinney/img3.jpg",
-        "bookImg": "images/author/jeff-kinney/book.png"
+        "bookImg": "images/author/jeff-kinney/book.png",
+        "heading": {
+            "title": "The Spring 2008 Writing Bee Finals",
+            "subtitle": "Featuring <i>Diary of a Wimpy Kid</i> author and illustrator, Jeff Kinney"
+        }
     },
     "jeff-cohen": {
         "img1": "images/author/jeff-cohen/img1.jpg",
         "img2": "images/author/jeff-cohen/img2.jpg",
         "img3": "images/author/jeff-cohen/img3.jpg",
-        "bookImg": "images/author/jeff-cohen/book.png"
+        "bookImg": "images/author/jeff-cohen/book.png",
+        "heading": {
+            "title": "The Spring 2017 Writing Bee",
+            "subtitle": "Featuring <i>The Goonies</i> actor, Jeff Cohen"
+        }
     }
 }
