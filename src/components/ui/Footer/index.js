@@ -1,15 +1,20 @@
 import React from 'react'
 
+// images
+import boomwriter from './images/boomwriter.png'
+import writingbee from './images/writingbee.png'
+import googlePartner from './images/google-partner.png'
+
 // styles
 import './index-footer.css'
 
-const IndexFooter = () => <footer className='index-footer'>
+const Footer = () => <footer className='index-footer'>
 
     <ul className='footer-logos'>
 
-        <img src='images/index/indexFooter/boomwriter.png' alt='BoomWriter' />
-        <img src='images/index/indexFooter/writingbee.png' alt='the Writing Bee' />
-        <img src='images/index/indexFooter/google-partner.png' alt='Google for Education Partner' />
+        <img src={ boomwriter } alt='BoomWriter' />
+        <img src={ writingbee } alt='the Writing Bee' />
+        <img src={ googlePartner } alt='Google for Education Partner' />
 
     </ul>
 
@@ -21,4 +26,4 @@ const IndexFooter = () => <footer className='index-footer'>
 
 </footer>
 
-export default IndexFooter
+export default Footer

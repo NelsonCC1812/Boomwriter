@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
+// images
+import logo from './images/logo.png'
+import menu from './images/menu.svg'
+
 // Sytles
 import './navbar.css'
 
@@ -13,7 +17,7 @@ const Navbar = () => {
         <nav className='nav-links'><ul>
 
             <li><figure className='nav-logo-container'>
-                <Link to='/'> <img src='images/navbar/logo.png' alt='Menu logo' /> </Link>
+                <Link to='/'> <img src={ logo } alt='Menu logo' /> </Link>
             </figure></li>
 
 
@@ -23,7 +27,7 @@ const Navbar = () => {
 
         </ul>
 
-            <figure onClick={ () => setIsNavbarOpened(!isNavbarOpened) } className='menu-container'> <img src='images/navbar/menu.svg' alt='Menu' /></figure>
+            <figure onClick={ () => setIsNavbarOpened(!isNavbarOpened) } className='menu-container'> <img src={ menu } alt='Menu' /></figure>
             <ul className={ 'mb-links ' + (isNavbarOpened ? "show" : "") }>
                 <li><Link className='link' to='/'>Home</Link></li>
 

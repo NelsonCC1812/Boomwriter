@@ -7,7 +7,7 @@ import Testimony from './Testimony'
 import Competition from './Competition'
 import WorkHeader from './WorksHeader'
 import Timeline from './Timeline'
-import IndexFooter from '../../components/ui/Footer'
+import Footer from '../../components/ui/Footer'
 
 // styles
 import './index.css'
@@ -25,7 +25,7 @@ const Index = () => {
         <Competition />
         <WorkHeader />
         <Timeline />
-        <IndexFooter />
+        <Footer />
 
     </main>
 }
