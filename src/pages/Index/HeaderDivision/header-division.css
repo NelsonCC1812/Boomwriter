@@ -1,20 +1,50 @@
 .header-division{
     padding-top: 10vh;
+    padding-bottom: 50px;
 
-    min-height: 40vh;
+    min-height: 35vh;
     background-color: #F4BC08 ;
+
+    color: rgba(0,0,0, .6);
 
     text-align: center;
 }
 
-.header-division>h2{
+.header-division .text-container{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-division .text-container>h2{
+    font-family: 'NexaRustSansW00-Book01';
+    font-size: 2.7rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
 
 }
 
-.header-division>p{
+.header-division .text-container>p{
 
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+
+    margin-bottom: 20px;
 }
 
-.header-division>link{
+.header-division .text-container>.link{
+    
+}
 
+
+/* QUERYS */
+@media(max-width: 700px){
+    .header-division .text-container>h2{
+        font-size: 2rem;
+    }
+
+    .header-division .text-container>p{
+        font-size: 1.4rem;
+    }
 }
