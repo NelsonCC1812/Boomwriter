@@ -1,0 +1,30 @@
+{
+    "nick-bruel": {
+        "img1": "images/author/nick-bruel/img1.jpg",
+        "img2": "images/author/nick-bruel/img2.jpg",
+        "img3": "images/author/nick-bruel/img3.jpg",
+        "bookImg": "images/author/nick-bruel/book.png",
+        "heading": {
+            "title": "The Spring 2007 Writing Bee",
+            "subtitle": "Featuring "
+        }
+    },
+    "jamal-joseph": {
+        "img1": "images/author/jamal-joseph/img1.jpg",
+        "img2": "images/author/jamal-joseph/img2.jpg",
+        "img3": "images/author/jamal-joseph/img3.jpg",
+        "bookImg": "images/author/jamal-joseph/book.png"
+    },
+    "jeff-kinney": {
+        "img1": "images/author/jeff-kinney/img1.png",
+        "img2": "images/author/jeff-kinney/img2.png",
+        "img3": "images/author/jeff-kinney/img3.jpg",
+        "bookImg": "images/author/jeff-kinney/book.png"
+    },
+    "jeff-cohen": {
+        "img1": "images/author/jeff-cohen/img1.jpg",
+        "img2": "images/author/jeff-cohen/img2.jpg",
+        "img3": "images/author/jeff-cohen/img3.jpg",
+        "bookImg": "images/author/jeff-cohen/book.png"
+    }
+}
