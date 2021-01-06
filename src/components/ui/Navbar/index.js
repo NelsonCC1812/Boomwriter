@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 // Sytles
 import './navbar.css'
 
-export default () => <header className='navbar'>
+const Navbar = () => <header className='navbar'>
 
     <nav className='nav-links'><ul>
 
         <li><figure className='logo-container'>
-            <Link to='/'> <img src='images/logo.png' alt='Menu logo' /> </Link>
+            <Link to='/'> <img src='images/navbar/logo.png' alt='Menu logo' /> </Link>
         </figure></li>
 
 
@@ -19,9 +19,11 @@ export default () => <header className='navbar'>
 
     </ul>
 
-        <figure className='menu-container'> <img src='images/menu.svg' alt='Menu' /></figure>
+        <figure className='menu-container'> <img src='images/navbar/menu.svg' alt='Menu' /></figure>
 
     </nav>
 
 
 </header>
+
+export default Navbar

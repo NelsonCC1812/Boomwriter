@@ -1,21 +1,22 @@
 import React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route, Redirect } from 'react-router-dom'
 
-// Components
-import Navbar from './components/ui/Navbar'
+// pages
+import Index from './pages/Index'
 
-// Styles
+// styles
 import './App.css'
 
-export default () => <main className='app'>
-
-  <Navbar />
+const App = () => <div className='app'>
 
   <Switch>
 
+    <Route exact path='/' render={ () => <Index /> } />
 
 
+    <Redirect to='/' />
   </Switch>
 
+</div>
 
-</main>
+export default App
