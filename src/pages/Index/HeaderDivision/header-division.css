@@ -5,7 +5,7 @@
     min-height: 35vh;
     background-color: #F4BC08 ;
 
-    color: rgba(0,0,0, .6);
+    color: var(--grey);
 
     text-align: center;
 }

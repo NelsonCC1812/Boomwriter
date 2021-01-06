@@ -1,6 +1,7 @@
 import React from 'react'
 
 // components
+import TickListCard from './TickListCard'
 
 // data
 import data from '../../../../data/tick-list.json'
@@ -14,7 +15,7 @@ const Table = () => <article className='table'>
 
     <ul className='tick-list'>
 
-
+        { data.map(elm => <TickListCard key={ elm.title } { ...elm } />) }
 
     </ul>
 

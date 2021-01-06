@@ -40,7 +40,7 @@
 .navbar .nav-links .link{
     text-decoration: none;
     font-weight: 500;
-    color: rgba(0,0,0,.6);
+    color: var(--grey);
 }
 .navbar .nav-links .link:hover{
     color: black;

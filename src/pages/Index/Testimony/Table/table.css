@@ -1,0 +1,19 @@
+.table{
+}
+
+.table h3{
+    font-family: 'Nexa Rust Sans Black';
+
+    color: var(--grey);
+
+    text-align: center;
+}
+
+.table .tick-list{
+
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-around;
+}
