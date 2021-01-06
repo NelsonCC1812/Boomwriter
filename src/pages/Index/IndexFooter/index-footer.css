@@ -1,0 +1,37 @@
+.index-footer{
+    background-color: var(--gray);
+    color: white;
+    padding-bottom: 45px;
+}
+
+.index-footer>.footer-logos{
+    width: 45%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between ;
+    padding-bottom: 20px;
+}
+
+.index-footer>.footer-logos>img{
+    width: auto;
+    height: fit-content;
+}
+
+.index-footer>.text-container{
+    text-align: center;
+}
+
+.index-footer>.text-container>p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.index-footer>.text-container>p>a{
+    color: inherit;
+}
+
+.index-footer>.text-container>p>a:hover{
+    color: var(--orange);
+}

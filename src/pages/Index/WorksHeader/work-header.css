@@ -36,7 +36,7 @@
 
 /* LEAD */
 .work-header .lead{
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
     margin-bottom: 35px;
 
@@ -48,7 +48,7 @@
 .work-header .work-header-list{
     list-style: none;
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
 
     display: flex;
     flex-wrap: wrap;
