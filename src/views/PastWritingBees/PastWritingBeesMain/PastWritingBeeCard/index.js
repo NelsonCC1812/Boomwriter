@@ -6,7 +6,7 @@ import './past-writing-bee-card.css'
 const PastWritingBeeCard = ({ img, title, author, date, link }) => <li className='past-writing-bee-card'>
     <a href={ link } className='link'>
 
-        <figure><img src={ img } alt={ author } /></figure>
+        <div className='image' style={ { backgroundImage: `url(${img})` } }></div>
 
         <div className='text-container'>
 
@@ -19,6 +19,6 @@ const PastWritingBeeCard = ({ img, title, author, date, link }) => <li className
         </div>
 
     </a>
-</li>
+</li >
 
 export default PastWritingBeeCard

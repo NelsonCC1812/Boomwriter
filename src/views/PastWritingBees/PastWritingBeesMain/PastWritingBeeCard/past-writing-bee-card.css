@@ -1,0 +1,90 @@
+.past-writing-bee-card{
+    width: 250px;
+    position: relative;
+    margin-bottom: 25px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.past-writing-bee-card:hover{
+    transform: scale(1.1);
+    transition: all .15s ease-in;
+}
+
+
+.past-writing-bee-card>a{
+    text-decoration: none;
+    color: var(--gray);
+}
+
+
+.past-writing-bee-card .image{
+    width: 100%;
+    height: 250px;
+
+    background-position: center;
+    background-size: cover;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+
+.past-writing-bee-card .text-container{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.past-writing-bee-card .text-container>.date{
+    font-size: .8rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+
+.past-writing-bee-card .text-container>.title{
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.past-writing-bee-card .text-container>.story-start{
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+
+    font-size: .8rem;
+}
+
+.past-writing-bee-card .text-container>.author{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+
+    color: #247AAE;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+
+/* QUERYS */
+@media(max-width: 900px){
+    .past-writing-bee-card{
+        width: 45%;
+    }
+}
+
+@media(max-width: 750px){
+    .past-writing-bee-card{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 450px){
+    .past-writing-bee-card{
+         width: 80%;
+    }
+}

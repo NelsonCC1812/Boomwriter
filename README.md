@@ -1,3 +1,8 @@
+## View
+
+* `/`
+* `/past-writing-bees`
+
 ### Comments
 
 > I will work in one branch (master) so will be more clear
@@ -7,3 +12,4 @@
 * I wont use Navbar or specially Footer from App because some views dont have it
 * Every component have an index.js inside to facility the reusability and usability
 * In the index/home you have some inconsistencies in the responsive part... so dont know exactly how do you want it
+
