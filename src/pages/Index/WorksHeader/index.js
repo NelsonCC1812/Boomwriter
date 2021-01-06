@@ -19,7 +19,7 @@ const WorkHeader = () => <section className='work-header'>
     <p className='lead'>The Writing Bee employs BoomWriter’s unique content generation platform that allows students to compete and collaborate online as they:</p>
 
     <ul className='work-header-list'>
-        { data.map(elm => <WorkHeaderListCard key={ elm.name } { ...elm } />) }
+        { data.map(elm => <WorkHeaderListCard key={ elm.title } { ...elm } />) }
     </ul>
 
 </section>
