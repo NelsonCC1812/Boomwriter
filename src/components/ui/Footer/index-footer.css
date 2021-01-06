@@ -35,3 +35,21 @@
 .index-footer>.text-container>p>a:hover{
     color: var(--orange);
 }
+
+
+@media(max-width: 700px){
+    .index-footer>.footer-logos{
+        width: 80%;
+    }
+
+    .index-footer>.text-container>p{
+        font-size: .9rem;
+    }
+}
+
+
+@media(max-width: 360px){
+    .index-footer>.footer-logos{
+        width: 90%;
+    }
+}
