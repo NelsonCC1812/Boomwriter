@@ -1,19 +1,43 @@
 .experience{
-
+    padding-bottom: 100px;
 }
 
 .experience .experience-img{
-
+    width: 100px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    bottom: -50px;
 }
 
-.experience>.text-container text{
+.experience>.text-container{
+    background-color: #F4F4F4;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 70px 20px 30px 20px;
 
+    text-align: center;
+    color: var(--grey);
 }
+
+.experience>.text-container .text{
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+
+    margin-bottom: 20px;
+} 
 
 .experience>.text-container .sign{
-
+    color: #007BFF;
+    font-family: 'NexaRustScriptLW00-02' ;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 .experience>.text-container .ubication{
-    
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
