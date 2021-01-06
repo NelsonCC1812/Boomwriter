@@ -6,6 +6,7 @@ import HeaderDivision from './HeaderDivision'
 import Testimony from './Testimony'
 import Competition from './Competition'
 import WorkHeader from './WorksHeader'
+import Timeline from './Timeline'
 import IndexFooter from './IndexFooter'
 
 // styles
@@ -18,6 +19,7 @@ const Index = () => <main className='index'>
     <Testimony />
     <Competition />
     <WorkHeader />
+    <Timeline />
     <IndexFooter />
 
 </main>
