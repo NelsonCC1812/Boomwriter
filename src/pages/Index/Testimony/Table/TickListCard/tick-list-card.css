@@ -3,7 +3,8 @@
 }
 
 .tick-list-card .title{
-    font-family: 'Nexa Rust Sans Black';
+    font-family: 'NexaRustSans-Black';
+    color: var(--grey);
 }
 
 .tick-list-card .explanation{

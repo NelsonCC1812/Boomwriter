@@ -2,7 +2,7 @@
 }
 
 .table h3{
-    font-family: 'Nexa Rust Sans Black';
+    font-family: 'NexaRustSans-Black';
 
     color: var(--grey);
 
@@ -16,4 +16,6 @@
 
     display: flex;
     justify-content: space-around;
+
+    list-style: none;
 }

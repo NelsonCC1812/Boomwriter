@@ -1,6 +1,17 @@
-@import url(//db.onlinewebfonts.com/c/f2ea7c7c84d1687335e8c48b8b1a92e3?family=Nexa+Rust+Sans+Black);
-@import url(//db.onlinewebfonts.com/c/bf6644c8ba0fd78c18466f540450914c?family=NexaRustScriptLW00-02);
-@import url(//db.onlinewebfonts.com/c/600e316c290c6d03b9daddb570f5e780?family=NexaRustSansW00-Book01);
+@font-face{
+  font-family: 'NexaRustSans-Black';
+  src: url('./fonts/NexaRustSans-Black.woff2')
+}
+
+@font-face{
+  font-family: 'NexaRustScriptLW00-02';
+  src: url('./fonts/NexaRustScriptLW00-02.woff2')
+}
+
+@font-face{
+  font-family: 'NexaRustSansW00-Book01';
+  src: url('./fonts/NexaRustSansW00-Book01.woff2');
+}
 
 *{
   margin: 0;
