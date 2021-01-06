@@ -2,9 +2,9 @@
     background-color: #4A4A4A;
     color: white;
     text-align: center;
-    padding-bottom: 70px;
 
-    min-height: 100vh;
+    min-height: fit-content;
+    padding-bottom: 80px;
 }
 
 .competition>.title{
@@ -21,12 +21,12 @@
     font-size: 1.3rem;
     line-height: 1.5rem;
     font-weight: 600;
-    width: 50%;
+    width: 45%;
 }
 
 .competition>img{
     margin-bottom: 45px;
-    width: 50%;
+    width: 40%;
 }
 
 .competition>.stages-list{

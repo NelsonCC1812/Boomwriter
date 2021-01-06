@@ -102,6 +102,7 @@
     margin: 0 auto;
     
     text-align: center;
+    z-index: 2000;
 }
 
 .index .hero .logo-container p{
