@@ -8,7 +8,7 @@ const Navbar = () => <header className='navbar'>
 
     <nav className='nav-links'><ul>
 
-        <li><figure className='logo-container'>
+        <li><figure className='nav-logo-container'>
             <Link to='/'> <img src='images/navbar/logo.png' alt='Menu logo' /> </Link>
         </figure></li>
 
