@@ -51,8 +51,13 @@
     font-size: 4rem;
     -webkit-text-stroke: 1px rgba(0,0,0,.8);
 }
+<<<<<<< HEAD
 
 
+=======
+
+
+>>>>>>> a47686c7ddd54e0aa0fc3d50dbe3727c1bd831e1
 .index .hero .heading-container .heading .hero-scroll{
     background-image: url('./images/scroll.png') ;
     background-position: center;
