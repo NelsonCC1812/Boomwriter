@@ -5,6 +5,8 @@
     padding-bottom: 50px;
 
     background-image: url('./images/kids-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
