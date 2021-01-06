@@ -18,6 +18,12 @@
   padding: 0;
 }
 
+:root{
+  --orange: #F4BC08;
+  --grey: #4a4a4a;
+}
+
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -33,4 +39,20 @@ code {
 
 .hidden{
   display: none;
+}
+
+/* BTN */
+.btn{
+    background-color: #007bff ;
+    color: white;
+    font-family: 'NexaRustSans-Black';
+    font-weight: bolder;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
 }

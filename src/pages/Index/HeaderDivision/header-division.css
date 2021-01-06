@@ -3,7 +3,7 @@
     padding-bottom: 50px;
 
     min-height: 35vh;
-    background-color: #F4BC08 ;
+    background-color: var(--orange) ;
 
     color: var(--grey);
 

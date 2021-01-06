@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 // components
 import TickListCard from './TickListCard'
@@ -18,6 +19,8 @@ const Table = () => <article className='table'>
         { data.map(elm => <TickListCard key={ elm.title } { ...elm } />) }
 
     </ul>
+
+    <Link to='/#' className='link btn'>Start your class writing bee</Link>
 
 </article>
 
