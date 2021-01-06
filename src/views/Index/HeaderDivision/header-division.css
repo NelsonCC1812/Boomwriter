@@ -1,4 +1,6 @@
 .header-division{
+    position: relative;
+    top: -20px;
     padding-top: 10vh;
     padding-bottom: 50px;
 
