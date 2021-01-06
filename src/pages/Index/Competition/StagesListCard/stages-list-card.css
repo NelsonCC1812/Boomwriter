@@ -1,0 +1,29 @@
+.stages-list-card{
+    width: 23%;
+    padding-bottom: 20px;
+}
+
+.stages-list-card>.title{
+    font-size: 1.9rem ;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.stages-list-card>.text{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
+/* QUERYS */
+@media(max-width: 1000px){
+    .stages-list-card{
+        width: 45%;
+    }
+}
+
+@media(max-width: 550px){
+    .stages-list-card{
+        width: 90%;
+    }
+}
